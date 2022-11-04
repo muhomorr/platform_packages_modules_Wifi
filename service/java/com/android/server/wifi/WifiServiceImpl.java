@@ -5629,8 +5629,6 @@ public class WifiServiceImpl extends BaseWifiService {
         }
         mWifiThreadRunner.post(
                 () -> {
-                    // Reset SoftApConfiguration to default configuration
-                    mWifiApConfigStore.setApConfiguration(null);
                     mPasspointManager.clearAnqpRequestsAndFlushCache();
                     mWifiConfigManager.clearUserTemporarilyDisabledList();
                     mWifiConfigManager.removeAllEphemeralOrPasspointConfiguredNetworks();
