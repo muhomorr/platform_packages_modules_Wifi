@@ -1768,7 +1768,7 @@ public class WifiCarrierInfoManager {
             return;
         }
 
-        Log.d(TAG, msg);
+        Log.d(TAG, msg, null);
     }
 
     /** Dump state. */
