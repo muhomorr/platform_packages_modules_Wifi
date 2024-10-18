@@ -372,10 +372,7 @@ public class XmlUtil {
         public static final String XML_TAG_ROAMING_CONSORTIUM_OIS = "RoamingConsortiumOIs";
         public static final String XML_TAG_RANDOMIZED_MAC_ADDRESS = "RandomizedMacAddress";
         public static final String XML_TAG_MAC_RANDOMIZATION_SETTING = "MacRandomizationSetting";
-        // "2" suffix was added to XML_TAG_SEND_DHCP_HOSTNAME value to turn off sending DHCP hostname
-        // by default for users who upgraded to one of the first 3 alpha releases of GrapheneOS
-        // based on Android 15, which didn't disable this option by default.
-        public static final String XML_TAG_SEND_DHCP_HOSTNAME = "SendDhcpHostname2";
+        public static final String XML_TAG_SEND_DHCP_HOSTNAME = "SendDhcpHostname";
         public static final String XML_TAG_CARRIER_ID = "CarrierId";
         public static final String XML_TAG_SUBSCRIPTION_ID = "SubscriptionId";
         public static final String XML_TAG_IS_AUTO_JOIN = "AutoJoinEnabled";
